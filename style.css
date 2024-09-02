@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightslategray;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 42px;
+    margin: 10px;
+}
+
+#task {
+    width: 300px;
+    height: 40px;
+    font-size: 21px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #E5E5E5;
+    border-color: #CCCCCC;
+    color: #333333;
+    border-style: 1px solid #CCCCCC;
+}
+
+#add-task {
+    background-color: #4CAF50;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+#add-task:hover {
+    background-color: darkgreen;
+}
+
+#task-list {
+    border-style: 1px solid #CCCCCC;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.task {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.delete-task {
+    float: right;
+    background-color: #FF9800;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.delete-task:hover {
+    background-color: #FFc107;
+}
+
+.edit-task {
+    float: right;
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-task:hover {
+    background-color: #3e8e41;
+}
+
+.save-task {
+    background-color: #03A9Fa;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.edit-input {
+    width: 100%;
+    padding: 10px;
+    font-style: 21px;
+    display: none;
+}
+
+.task-test {
+    font-size: 16px;
+}
